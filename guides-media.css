@@ -1,0 +1,193 @@
+@media screen and (min-width: 768px) and (max-width:1440px){
+    .container-downloads button{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+
+    
+    .container-nav li{
+        display: none;
+        padding: 15px 50px 15px 50px;
+    }
+   
+    .container-nav{
+        padding: 15px 50px 15px 50px;
+    }
+    .container-nav span{
+        background-image: url(./asset/menu.png);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 15px;
+    }
+
+    .container-segunda-downloads{
+        grid: none;
+    }
+    .container-downloads-img{
+        display: none;
+    }
+    .container-downloads{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        gap: 20px;
+        
+        
+    }
+    .container-downloads h3{
+        font-size: 2.2rem;
+    }
+    .container-downloads h1{
+        font-size: 5rem;
+    }
+    .container-downloads p{
+        font-size: 1.2rem;
+    }
+    .container-downloads-button button{
+        border: none;
+        border-radius: 30px;
+        background-color: #3784FB;
+        width: 220px;
+        height: 50px;
+        margin-top: 50px;
+        font-size: 2rem;
+        color: #ffff;
+
+        
+       }
+      
+       .container-segunda-downloads{
+        padding: 150px;
+       }
+       .container-tercera-section-manuals{
+        grid: none;
+        
+       }
+       .container-tercera-section-titles{
+        margin-top: 50px;
+       }
+       .container-tercera-section-titles button{
+        height: 40px;
+       }
+       .container-cuarta-section-guides{
+        margin-top: 40px;
+       }
+       .container-cuarta-section-guides button{
+        height: 40px;
+       }
+       .container-quinta-section-loxone button{
+        height: 40px;
+       }
+       .container-sexta-seccion button{
+        height: 40px;
+       }
+       .container-footer{
+        grid: none;
+        height: 431px;
+        margin-top: 40px;
+        align-items: none;
+       }
+     
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px){
+    .container-nav li{
+        display: none;
+        
+      
+    }
+    .container-nav{
+        padding: 15px 20px 15px 20px;
+    }
+    .container-nav span{
+        background-image: url(./asset/menu.png);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 15px;
+        
+
+    }
+   
+    .container-segunda-downloads{
+        grid: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 80px
+    }
+    .container-downloads-img{
+        display: none;
+    }
+    .container-downloads h3{
+       font-size: 2.2rem;
+    }
+    .container-downloads h1{
+        font-size: 3rem;
+    }
+    .container-downloads hr{
+        margin: 0 auto;
+    }
+    .container-downloads p{
+        width: 190px;
+    }
+    .container-downloads-button button{
+        background-color: #3784FB;
+        width: 200px;
+        height: 45px;
+        border: none;
+        border-radius: 25px;
+        color: #ffff;
+        margin-top: 50px;
+        font-size: 2rem;
+    }
+    .container-tercera-section-manuals{
+        grid: none;
+        text-align: center;
+        
+    }
+    .container-tercera-section-titles{
+        margin-top: 40px;
+    }
+    .container-tercera-section-titles button{
+        height: 40px;
+
+    }
+    .container-cuarta-section-guides{
+        margin-top: 50px;
+    }
+    .container-cuarta-section-guides button{
+        height: 40px;
+    }
+    .container-quinta-section-loxone button{
+        height: 40px;
+        
+    }
+    .container-quinta-section-loxone{
+        padding: 30px;
+    }
+    .container-sexta-seccion button{
+        height: 40px;
+        
+    }
+    
+    .container-footer{
+        grid: none;
+        height: 588px;
+        margin-top: 60px;
+        align-items: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .container-title-uno{
+        margin-top: 50px;
+    }
+    .copyright{
+        font-size: 0.4rem;
+    }
+    
+   }
